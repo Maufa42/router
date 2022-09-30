@@ -1,0 +1,39 @@
+.navbar  {
+  background-color: brown;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+ul li {
+  list-style-type: none;
+  display: inline;
+  margin:10px 20px;
+}
+
+#logo{
+  position: fixed;
+  margin: 0px 15px 15px 10px;
+    left: 0;
+    display:inline;
+  border-style: none;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+
+/* visited link */
+/* a:visited {
+  color: green;
+} */
+
+/* mouse over link */
+a:hover {
+  color: red;
+}
+
+/* selected link */
+a:active {
+  color: yellow;
+}
